@@ -10,7 +10,7 @@ def displayGrid(info):
 
 def game():
     moves = 1
-    while moves < 9:
+    while moves <= 9:
         if moves % 2 == 1:
             coords = input('Competitor 1 make your decicion in the name of Lithuania: ')
             splitcoords = coords.split(',')
@@ -28,8 +28,10 @@ def game():
             displayGrid(info)
 
             moves += 1
+        movesleft = 10 - moves
+        print('Moves remaining:' , movesleft)
     if moves == 10:
-        print('Joyous game. The great land of Lithuania congratulates the winner. The loser shall go back to the failed state of Estonia')
+        print('Joyous game. The great land of Lithuania congratulates the winner. The winner shall have a lifelong supply of plentiful green beans. The loser shall never be welcome in Lithuania.')
 
     return
     
