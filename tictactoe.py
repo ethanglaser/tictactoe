@@ -8,6 +8,7 @@ def displayGrid(info):
     print('1 |_|_|_|')
     print('  |' + info[2][0] + '|' + info[2][1] + '|' + info[2][2] + '|')
     print('2 |_|_|_|')
+    print("ayo")
 
 
 
