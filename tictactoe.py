@@ -41,4 +41,4 @@ if __name__ == "__main__":
 # need to track whose turn it is
 # need to determine if chosen space is open
 # need to check if the game is over/if a player has won
-# need to repeat this process if game not over
+#THIS HAS BEEN CLAIMED BY LITHUANIA
